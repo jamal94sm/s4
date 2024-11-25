@@ -20,7 +20,7 @@ from tqdm.auto import tqdm
 import src.models.nn.utils as U
 import src.utils as utils
 import src.utils.train
-from src.dataloaders import SequenceDataset  # TODO make registry
+#from src.dataloaders import SequenceDataset  # TODO make registry
 from src.tasks import decoders, encoders, tasks
 from src.utils import registry
 from src.utils.optim.ema import build_ema_optimizer
